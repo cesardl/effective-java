@@ -1,13 +1,12 @@
 target/
 
-
-.metadata
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
 .settings/
+.metadata
 .loadpath
 
 # Eclipse Core
