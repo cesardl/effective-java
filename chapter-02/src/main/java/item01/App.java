@@ -6,7 +6,6 @@
 package item01;
 
 import java.math.BigInteger;
-import java.util.EnumSet;
 import java.util.Random;
 
 /**
@@ -14,7 +13,7 @@ import java.util.Random;
  * @author cesardiaz
  */
 public class App {
-
+	
 	enum State {
 		
 	}
@@ -34,8 +33,6 @@ public class App {
         
         BigInteger bi1 = new BigInteger(512, 1000, rnd);
         System.out.println(bi1);
-        
-        EnumSet<State> s;
     }
 
 }

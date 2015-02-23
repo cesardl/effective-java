@@ -1,5 +1,10 @@
 package item02.telescopingconstructorpattern;
 
+/**
+ * 	
+ * @author cesardiaz
+ *
+ */
 public class App {
 
 	public static void main(String[] args) {

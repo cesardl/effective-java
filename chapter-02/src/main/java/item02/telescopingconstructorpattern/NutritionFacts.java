@@ -55,4 +55,24 @@ public class NutritionFacts {
 		this.carbohydrate = carbohydrate;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder(
+				"Nutrition facts\n[\nServing size: ");
+		sb.append(servingSize);
+		sb.append("\nServings:");
+		sb.append(servings);
+		sb.append("\nCalories: ");
+		sb.append(calories);
+		sb.append("\nFat: ");
+		sb.append(fat);
+		sb.append("\nSodium: ");
+		sb.append(sodium);
+		sb.append("\nCarbohydrate: ");
+		sb.append(carbohydrate);
+		sb.append("\n]");
+
+		return sb.toString();
+	}
+
 }

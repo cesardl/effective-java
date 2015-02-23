@@ -10,7 +10,9 @@ import java.util.Set;
  * with HashSet, or LinkedHashSet.
  *
  * @author Javin Paul
- * @see <a href="http://javarevisited.blogspot.com/2014/03/how-to-use-enumset-in-java-with-example.html">How to use EnumSet in Java with Example</a>
+ * @see <a
+ *      href="http://javarevisited.blogspot.com/2014/03/how-to-use-enumset-in-java-with-example.html">How
+ *      to use EnumSet in Java with Example</a>
  */
 public class EnumSetDemo {
 
@@ -24,6 +26,10 @@ public class EnumSetDemo {
 			this.r = r;
 			this.g = g;
 			this.b = b;
+		}
+
+		public String rgb() {
+			return "(" + r + ", " + g + ", " + b + ")";
 		}
 
 	}
@@ -43,7 +49,8 @@ public class EnumSetDemo {
 	public static void drawLine(Set<Color> colors) {
 		System.out.println("Requested Colors to draw lines : " + colors);
 		for (Color c : colors) {
-			System.out.println("drawing line in color : " + c);
+			System.out.println("drawing line in color : " + c + ", RGB: "
+					+ c.rgb());
 		}
 	}
 
