@@ -10,8 +10,8 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>chapter-02</artifactId>
+    <artifactId>chapter-03</artifactId>
 
-    <name>Chapter 02</name>
+    <name>Chapter 03</name>
 
 </project>
