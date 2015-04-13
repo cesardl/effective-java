@@ -10,7 +10,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class CoffeeShop {
 
-    private final List<Order> orders = new CopyOnWriteArrayList<>();
+    private final List<Order> orders = new CopyOnWriteArrayList<Order>();
 
     private final Menu menu = new Menu();
 

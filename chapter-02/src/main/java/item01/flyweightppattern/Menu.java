@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class Menu {
 
-    private final Map<String, CoffeeFlavour> flavours = new HashMap<>();
+    private final Map<String, CoffeeFlavour> flavours = new HashMap<String, CoffeeFlavour>();
 
     /**
      * Add flavour if doesn't exists.

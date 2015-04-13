@@ -6,6 +6,10 @@
 package item01;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -81,6 +85,18 @@ public class App {
             System.out.println(String.format("Are NOT equals by p3.equals(p2) %d - %d",
                     p3.hashCode(), p2.hashCode()));
         }
+        
+        Map<String, List<String>> m =  App.newInstanceMap();
+
+        List<String> l = App.newInstanceList();
     }
 
+    public static <K, V> HashMap<K, V> newInstanceMap() {
+        return new HashMap<K, V>();
+    }
+
+    public static <M> List<M> newInstanceList() {
+        return new ArrayList<M>();
+    }
+    
 }
