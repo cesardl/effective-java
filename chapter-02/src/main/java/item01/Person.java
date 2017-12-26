@@ -1,9 +1,6 @@
 package item01;
 
-import java.util.Objects;
-
 /**
- *
  * @author cesardiaz
  */
 public class Person {

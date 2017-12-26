@@ -1,9 +1,7 @@
 package item02.builderpattern;
 
 /**
- *
  * @author cesardiaz
- *
  */
 public class App {
 

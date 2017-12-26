@@ -1,4 +1,4 @@
-package item01.flyweightppattern;
+package item01.flyweightpattern;
 
 import java.util.HashMap;
 import java.util.Map;

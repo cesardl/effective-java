@@ -1,7 +1,6 @@
-package item01.flyweightppattern;
+package item01.flyweightpattern;
 
 /**
- *
  * @author cesardiaz
  * @date 13/04/2015 11:21:55
  */
@@ -17,8 +16,7 @@ public class Order {
     }
 
     void serve() {
-        System.out.println("Serving " + flavour + " to table "
-                + tableNumber);
+        System.out.println("Serving " + flavour + " to table " + tableNumber);
     }
 
 }

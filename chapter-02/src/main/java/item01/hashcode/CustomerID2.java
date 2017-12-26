@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
  * @author cesardiaz
+ * @see <a href='http://www.xyzws.com/javafaq/why-always-override-hashcode-if-overriding-equals/20'>Why always override hashcode() if overriding equals()?</a>
  */
 public class CustomerID2 {
 
@@ -16,6 +16,12 @@ public class CustomerID2 {
         super();
         this.crmID = crmID;
         this.nameSpace = nameSpace;
+    }
+
+    public static void main(String[] args) {
+        Map m = new HashMap();
+        m.put(new CustomerID2(2345891234L, 0), "Jeff Smith");
+        System.out.println(m.get(new CustomerID2(2345891234L, 0)));
     }
 
     @Override
@@ -35,12 +41,6 @@ public class CustomerID2 {
     public int hashCode() {
         int result = (int) (crmID / 12) + nameSpace;
         return result;
-    }
-
-    public static void main(String[] args) {
-        Map m = new HashMap();
-        m.put(new CustomerID2(2345891234L, 0), "Jeff Smith");
-        System.out.println(m.get(new CustomerID2(2345891234L, 0)));
     }
 
 }

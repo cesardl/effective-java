@@ -1,4 +1,4 @@
-package item01.flyweightppattern;
+package item01.flyweightpattern;
 
 /**
  * Instances of CoffeeFlavour will be the Flyweights.
